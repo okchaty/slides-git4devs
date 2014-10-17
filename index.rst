@@ -24,32 +24,39 @@ http://luismayta.github.com
     * Distribuido
     * Creado Por Linus Torvals.
 
-Ventajas de Git
-===============
+    .. include:: _templates/git-logo.rst
 
-* Velocidad
-* Completamente Distribuido
-* Capaz de Manejar Grandes Proyectos (Kernel de Linux)
-* Fuerte apoyo al desarrollo no lineal
+.. slide:: Ventajas de Git
+    :level: 2
 
-.. image:: _static/logo-git.png
+    * Velocidad
+    * Completamente Distribuido
+    * Capaz de Manejar Grandes Proyectos (Kernel de Linux)
+    * Fuerte apoyo al desarrollo no lineal
 
-Sistema de Control de Versiones
-===============================
-
-Es un sistema que registra los cambios realizados sobre 
-un archivo o conjunto de archivos a lo largo del tiempo.
+    .. include:: _templates/git-logo.rst
 
 
-Tipos de Sistemas de Control de Versiones
-=========================================
+.. slide:: Sistema de Control de Versiones
+    :level: 2
 
-* Sistema de Control de Versiones Locales.
-* Sistema de Control de Versiones Centralizados.
-* Sistema de Control de Versiones Distribuidos.
+    Es un sistema que registra los cambios realizados sobre 
+    un archivo o conjunto de archivos a lo largo del tiempo.
 
-Historia de Git
-===============
+    .. include:: _templates/git-logo.rst
 
+.. slide:: Tipo de Sistemas de Control de Versiones
+    :level: 2
+
+    * Sistema de Control de Versiones Locales.
+    * Sistema de Control de Versiones Centralizados.
+    * Sistema de Control de Versiones Distribuidos.
+
+.. slide:: Historia de Git
+    :level: 2
+
+    .. image:: _static/linus.jpg
+        :align: center
+        :width: 30%
 
 
