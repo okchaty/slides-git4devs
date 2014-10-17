@@ -278,16 +278,9 @@ slide_levels = 3
 # Place custom static assets in the .static directory and uncomment
 # the following lines to include them
 
-#slide_theme_options = {
-    #'presenters': [
-        #{
-            #'name': u'Luis Mayta',
-            #'twitter': '@slovacus',
-            ##'www': 'http://puentesarr.in',
-            #'github': 'http://github.com/luismayta'
-        #},
-    #],
-#}
+slide_theme_options = {
+    'custom_css': 'custom.css'
+}
 
 # ----------------------------------------------
 
