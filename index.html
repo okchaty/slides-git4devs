@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Git Para Desarrolladores &mdash; Git para desarrolladores 2014.10.17 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/styles.css" type="text/css" />
+    <link rel="stylesheet" href="_static/slides.css" type="text/css" />
+    
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    
+
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2014.10.17',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/common.js"></script>
+    <script type="text/javascript" src="_static/slides.js"></script>
+    <script type="text/javascript" src="_static/sync.js"></script>
+    <script type="text/javascript" src="_static/controller.js"></script>
+    <script type="text/javascript" src="_static/init.js"></script>
+    
+    <link rel="top" title="Git para desarrolladores 2014.10.17 documentation" href="#" /> 
+  </head>
+  <body>
+
+<section
+   id="slide_container"
+   class='slides layout-regular'>
+
+
+  <article class="slide level-1" id="git-para-desarrolladores">
+<h1>Git Para Desarrolladores</h1>
+<a class="logo-git reference internal image-reference" href="_images/logo-git.png"><img alt="_images/logo-git.png" class="logo-git" src="_images/logo-git.png" style="width: 10%;" /></a>
+
+</article>
+<article class="slide level-1" id="about-me">
+<h1>About Me</h1>
+<p>Luis Mayta | &#64;slovacus</p>
+<p><a class="reference external" href="http://luismayta.github.com">http://luismayta.github.com</a></p>
+
+</article>
+<article class="admonition-agenda slide level-2">
+<h2>Agenda</h2>
+<ul class="simple">
+<li>Que es Git?</li>
+<li>Ventajas de Git.</li>
+<li>Sistema de Control de Versiones.</li>
+<li>Tipos de Sistema de Control de Versiones.</li>
+<li>Instalacion.</li>
+<li>Comandos de Git.</li>
+</ul>
+
+</article>
+<article class="admonition-agenda slide level-2">
+<h2>Agenda</h2>
+<ul class="simple">
+<li>Comandos de Git.</li>
+<li>Estados de Git.</li>
+<li>Personalizando.</li>
+<li>Tipos de Repositorios.</li>
+<li>Hooks.</li>
+<li>Herramientas.</li>
+</ul>
+
+</article>
+<article class="admonition-git slide level-2">
+<h2>Git</h2>
+<a class="reference internal image-reference" href="_images/logo-git.png"><img alt="_images/logo-git.png" class="align-center" src="_images/logo-git.png" style="width: 70%;" /></a>
+
+</article>
+<article class="admonition-que-es-git slide level-2">
+<h2>Que es Git?</h2>
+<ul class="simple">
+<li>Sistema de Control de Versiones Open Source</li>
+<li>Multiplataforma</li>
+<li>Distribuido</li>
+<li>Creado Por Linus Torvals.</li>
+</ul>
+
+</article>
+<article class="admonition-ventajas-de-git slide level-2">
+<h2>Ventajas de Git</h2>
+<ul class="simple">
+<li>Velocidad</li>
+<li>Completamente Distribuido</li>
+<li>Capaz de Manejar Grandes Proyectos (Kernel de Linux)</li>
+<li>Fuerte apoyo al desarrollo no lineal</li>
+</ul>
+
+</article>
+<article class="admonition-sistema-de-control-de-versiones slide level-2">
+<h2>Sistema de Control de Versiones</h2>
+<p>Es un sistema que registra los cambios realizados sobre
+un archivo o conjunto de archivos a lo largo del tiempo.</p>
+
+</article>
+<article class="admonition-tipo-de-sistemas-de-control-de-versiones slide level-2">
+<h2>Tipo de Sistemas de Control de Versiones</h2>
+<ul class="simple">
+<li>Sistema de Control de Versiones Locales.</li>
+<li>Sistema de Control de Versiones Centralizados.</li>
+<li>Sistema de Control de Versiones Distribuidos.</li>
+</ul>
+
+</article>
+<article class="admonition-sistema-de-control-de-versiones-locales slide level-2">
+<h2>Sistema de Control de Versiones Locales</h2>
+<a class="reference internal image-reference" href="_images/version_local.png"><img alt="_images/version_local.png" class="align-center" src="_images/version_local.png" style="width: 70%;" /></a>
+
+</article>
+<article class="admonition-sistema-de-control-de-versiones-centralizados slide level-2">
+<h2>Sistema de Control de Versiones Centralizados</h2>
+<a class="reference internal image-reference" href="_images/version_centralizado.png"><img alt="_images/version_centralizado.png" class="align-center" src="_images/version_centralizado.png" style="width: 70%;" /></a>
+
+</article>
+<article class="admonition-sistema-de-control-de-versiones-distribuido slide level-3">
+<h3>Sistema de Control de Versiones Distribuido</h3>
+<a class="reference internal image-reference" href="_images/versiones_distribuidos.png"><img alt="_images/versiones_distribuidos.png" class="align-center" src="_images/versiones_distribuidos.png" style="width: 70%;" /></a>
+
+</article>
+<article class="admonition-instalacion slide level-2">
+<h2>Instalacion</h2>
+<p>windows:</p>
+<div class="highlight-python"><div class="highlight"><pre>download http://git-scm.com/ next next
+</pre></div>
+</div>
+<p>linux:</p>
+<div class="highlight-python"><div class="highlight"><pre>Debian: sudo apt-get install git-all
+Red Hat: sudo Yum install git-all
+</pre></div>
+</div>
+<p>OS X:</p>
+<div class="highlight-python"><div class="highlight"><pre>brew update
+brew install git
+</pre></div>
+</div>
+
+</article>
+<article class="admonition-comandos-de-git slide level-2">
+<h2>Comandos de Git</h2>
+<p>enlace:</p>
+<div class="highlight-python"><div class="highlight"><pre>https://gist.github.com/luismayta/4047768
+</pre></div>
+</div>
+
+</article>
+<article class="admonition-estados-de-git slide level-2">
+<h2>Estados de Git</h2>
+<a class="reference internal image-reference" href="_images/lifecyclefile.png"><img alt="_images/lifecyclefile.png" class="align-center" src="_images/lifecyclefile.png" style="width: 100%;" /></a>
+
+</article>
+<article class="admonition-personalizando-git slide level-2">
+<h2>Personalizando Git</h2>
+<ul class="simple">
+<li>Git config</li>
+<li>Git Ignore</li>
+</ul>
+
+</article>
+<article class="admonition-git-config slide level-2">
+<h2>Git Config</h2>
+<p>enlace:</p>
+<div class="highlight-python"><div class="highlight"><pre>https://github.com/PimientaDigital/gitconfig
+</pre></div>
+</div>
+<p>config:</p>
+<div class="highlight-python"><div class="highlight"><pre>git config -e
+git config --global -e
+</pre></div>
+</div>
+
+</article>
+<article class="admonition-git-ignore slide level-2">
+<h2>Git Ignore</h2>
+<p>enlace:</p>
+<div class="highlight-python"><div class="highlight"><pre>https://github.com/PimientaDigital/gitignore
+</pre></div>
+</div>
+<p>ignore file:</p>
+<div class="highlight-python"><div class="highlight"><pre>echo &quot;file.py&quot;  &gt;&gt; .gitignore
+</pre></div>
+</div>
+
+</article>
+<article class="admonition-tipos-de-repositorios slide level-2">
+<h2>Tipos de Repositorios</h2>
+<ul class="simple">
+<li>repositorio local</li>
+<li>repositorio BARE</li>
+</ul>
+
+</article>
+<article class="admonition-repositorio-local slide level-2">
+<h2>Repositorio local</h2>
+<p>Crear Repo:</p>
+<div class="highlight-python"><div class="highlight"><pre>git init &lt;&lt;path&gt;&gt;
+</pre></div>
+</div>
+
+</article>
+<article class="admonition-repositorio-bare slide level-2">
+<h2>Repositorio Bare</h2>
+<p>Crear Repo:</p>
+<div class="highlight-python"><div class="highlight"><pre>git init --bare &lt;&lt;path.git&gt;&gt;
+</pre></div>
+</div>
+
+</article>
+<article class="admonition-hooks-de-git slide level-2">
+<h2>Hooks de Git</h2>
+<ul class="simple">
+<li>pre-commit</li>
+<li>post-commit</li>
+<li>prepare-commit-msg</li>
+<li>post-receive</li>
+</ul>
+<p>...</p>
+
+</article>
+<article class="admonition-herramientas slide level-2">
+<h2>Herramientas</h2>
+<ul class="simple">
+<li>meld</li>
+</ul>
+
+</article>
+<article class="admonition-agregar-meld slide level-2">
+<h2>Agregar Meld</h2>
+<p>Instalar:</p>
+<div class="highlight-python"><div class="highlight"><pre>sudo apt-get install meld
+</pre></div>
+</div>
+<p>configurar meld:</p>
+<div class="highlight-python"><div class="highlight"><pre>git config --global merge.tool meld
+git config --global diff.tool meld
+</pre></div>
+</div>
+
+</article>
+<article class="admonition-preguntas slide level-2">
+<h2>Preguntas</h2>
+<p><em>Gracias</em></p>
+
+</article>
+
+
+</section>
+
+<section id="slide_notes">
+
+</section>
+
+  </body>
+</html>
