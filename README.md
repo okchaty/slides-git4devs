@@ -37,7 +37,6 @@ Open index.html
 
 Es necesario instalar [Grip](https://github.com/joeyespo/grip) para poder visualizar la documentación, ejecutando lo siguiente:
 
-
 ```bash
 grip 5000
 ```
