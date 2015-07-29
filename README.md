@@ -1,4 +1,5 @@
 <span class="badges">
+[![Build Status](https://travis-ci.org/luismayta/git-for-devs.svg)](https://travis-ci.org/luismayta/git-for-devs)
 [![Stories in Ready](https://badge.waffle.io/luismayta/git-for-devs.svg?label=ready&title=Ready)](http://waffle.io/luismayta/git-for-devs)
 [![GitHub issues](https://img.shields.io/github/issues/luismayta/git-for-devs.svg)](https://github.com/luismayta/git-for-devs)
 [![GitHub forks](https://img.shields.io/github/forks/luismayta/git-for-devs.svg)](https://github.com/luismayta/git-for-devs)
