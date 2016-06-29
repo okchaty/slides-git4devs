@@ -40,19 +40,19 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 # Sistema de Control de Version Local
 
-[!version local](../static/version_local.png)
+![version local](../static/version_local.png)
 
 --------------------------------------------------
 
 # Sistema de Control de Version Centralizado
 
-[!version centralizado](../static/version_centralizado.png)
+![version centralizado](../static/version_centralizado.png)
 
 --------------------------------------------------
 
 # Sistema de Control de Version Distribuido
 
-[!version distribuido](../static/version_distribuidos.png)
+![version distribuido](../static/version_distribuidos.png)
 
 --------------------------------------------------
 
@@ -92,7 +92,7 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 # Estados de Git:
 
-[lifecycle.png](../static/lifecyclefile.png)
+![lifecycle.png](../static/lifecyclefile.png)
 
 --------------------------------------------------
 
