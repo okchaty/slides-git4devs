@@ -1,3 +1,3 @@
 # Git For Developer
 
-![logo git](../static/images/slides/git.png)
+![logo git](../static/logo-git.png)

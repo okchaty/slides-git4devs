@@ -52,7 +52,7 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 # Sistema de Control de Version Distribuido
 
-![version distribuido](../static/version_distribuidos.png)
+![version distribuido](../static/versiones_distribuidos.png)
 
 --------------------------------------------------
 
