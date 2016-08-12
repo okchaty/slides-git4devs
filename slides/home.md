@@ -1,3 +1,9 @@
+# No tenemos Tiempo
+
+![mejorar](../static/mejorar.jpg)
+
+--------------------------------------------------
+
 # Git
 
 ![logo git](../static/logo-git.png)
@@ -203,4 +209,6 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 # Preguntas
 
-## Gracias!!
+![mejorar](../static/mejorar.jpg)
+
+--------------------------------------------------
