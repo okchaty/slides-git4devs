@@ -1,3 +1,9 @@
+# No tenemos Tiempo
+
+![mejorar](../static/mejorar.jpg)
+
+--------------------------------------------------
+
 # Git
 
 ![logo git](../static/logo-git.png)
@@ -12,6 +18,13 @@
 - Creado Por Linus Torvals.
 
 --------------------------------------------------
+
+# Linus Torvalds
+
+![linus torvalds](../static/torvaldsnvidia.jpg)
+
+--------------------------------------------------
+
 
 # Ventajas de Git
 
@@ -196,4 +209,6 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 # Preguntas
 
-## Gracias!!
+![mejorar](../static/mejorar.jpg)
+
+--------------------------------------------------
