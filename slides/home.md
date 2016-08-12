@@ -13,6 +13,13 @@
 
 --------------------------------------------------
 
+# Linus Torvalds
+
+![linus torvalds](../static/torvaldsnvidia.jpg)
+
+--------------------------------------------------
+
+
 # Ventajas de Git
 
 - Velocidad
