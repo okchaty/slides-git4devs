@@ -1,9 +1,9 @@
 <span class="badges">
-[![Build Status](https://travis-ci.org/luismayta/git-for-devs.svg)](https://travis-ci.org/luismayta/git-for-devs)
-[![Stories in Ready](https://badge.waffle.io/luismayta/git-for-devs.svg?label=ready&title=Ready)](http://waffle.io/luismayta/git-for-devs)
-[![GitHub issues](https://img.shields.io/github/issues/luismayta/git-for-devs.svg)](https://github.com/luismayta/git-for-devs)
-[![GitHub forks](https://img.shields.io/github/forks/luismayta/git-for-devs.svg)](https://github.com/luismayta/git-for-devs)
-[![GitHub stars](https://img.shields.io/github/stars/luismayta/git-for-devs.svg)](https://github.com/luismayta/git-for-devs)
+[![Build Status](https://travis-ci.org/luismayta/slide-git-for-devs.svg)](https://travis-ci.org/luismayta/slide-git-for-devs)
+[![Stories in Ready](https://badge.waffle.io/luismayta/slide-git-for-devs.svg?label=ready&title=Ready)](http://waffle.io/luismayta/slide-git-for-devs)
+[![GitHub issues](https://img.shields.io/github/issues/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
+[![GitHub forks](https://img.shields.io/github/forks/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
+[![GitHub stars](https://img.shields.io/github/stars/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
 
@@ -51,5 +51,5 @@ http://localhost:5000
 <span class="badges">
 [![](http://api.coderwall.com/luismayta/endorsecount.png)](http://coderwall.com/luismayta)
 [![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://pe.linkedin.com/in/luismayta)
-[![Analytics](https://ga-beacon.appspot.com/UA-65019326-1/git-for-devs/readme)](https://github.com/luismayta/git-for-devs)
+[![Analytics](https://ga-beacon.appspot.com/UA-65019326-1/slide-git-for-devs/readme)](https://github.com/luismayta/slide-git-for-devs)
 </span>
