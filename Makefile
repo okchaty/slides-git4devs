@@ -1,4 +1,4 @@
-# Makefile for luismayta-github.io.
+# Makefile for slide-git-for-devs.
 # See INSTALL for details.
 
 # Configuration.
