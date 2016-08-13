@@ -4,3 +4,5 @@
 [ -r "script/bootstrap.sh" ] && source "script/bootstrap.sh"
 
 cd $SOURCE_DIR
+
+landslide main.cfg -w ./
