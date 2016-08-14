@@ -17,13 +17,10 @@ TEST = $(shell) $(SCRIPT_DIR)/test.sh
 RUNSERVER = $(shell) $(SCRIPT_DIR)/runserver.sh
 SYNC = $(shell) $(SCRIPT_DIR)/sync.sh
 WATCH = $(shell) $(SCRIPT_DIR)/watch.sh
+GENERATE = $(shell) $(SCRIPT_DIR)/generate.sh
 
 install:
 	$(SETUP)
-
-
-create_database:
-	$(CREATE_DATABASE)
 
 
 clean:
@@ -60,3 +57,7 @@ sync:
 
 watch:
 	$(WATCH)
+
+
+generate:
+	$(GENERATE)
