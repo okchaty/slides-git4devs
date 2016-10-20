@@ -1,6 +1,7 @@
 -/log
 -/tmp
 -/.git
+-/.vagrant
 -/auto-save-list
 -*.cache
 -*.pyc
