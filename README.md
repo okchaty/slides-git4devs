@@ -1,6 +1,5 @@
 <span class="badges">
 [![Build Status](https://travis-ci.org/luismayta/slide-git-for-devs.svg)](https://travis-ci.org/luismayta/slide-git-for-devs)
-[![Stories in Ready](https://badge.waffle.io/luismayta/slide-git-for-devs.svg?label=ready&title=Ready)](http://waffle.io/luismayta/slide-git-for-devs)
 [![GitHub issues](https://img.shields.io/github/issues/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
 [![GitHub forks](https://img.shields.io/github/forks/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
 [![GitHub stars](https://img.shields.io/github/stars/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
@@ -10,7 +9,6 @@
 # Git For Developments
 
 This is a talk for the [Pymienta 2015](http://pimientadigital.com) conference.
-
 
 ## Install
 
@@ -49,7 +47,6 @@ http://localhost:5000
 ```
 
 <span class="badges">
-[![](http://api.coderwall.com/luismayta/endorsecount.png)](http://coderwall.com/luismayta)
-[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://pe.linkedin.com/in/luismayta)
+[![Linkedin](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://pe.linkedin.com/in/luismayta)
 [![Analytics](https://ga-beacon.appspot.com/UA-65019326-1/slide-git-for-devs/readme)](https://github.com/luismayta/slide-git-for-devs)
 </span>
