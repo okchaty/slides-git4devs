@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 
 export PROJECT_NAME=slide-git4devs
+
+export PYTHON_VERSION=2.7.9
+export PYENV_NAME="${PROJECT_NAME}"
 # Vars Dir
 export ROOT_DIR=""
 ROOT_DIR=$(pwd)

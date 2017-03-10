@@ -6,9 +6,9 @@
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
 
-# Git For Developments
+# Git 4 Devs
 
-This is a talk for the [Pymienta 2015](http://pimientadigital.com) conference.
+slide to information of git.
 
 ## Install
 
