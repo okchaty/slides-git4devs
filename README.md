@@ -1,14 +1,14 @@
 <span class="badges">
-[![Build Status](https://travis-ci.org/luismayta/slide-git-for-devs.svg)](https://travis-ci.org/luismayta/slide-git-for-devs)
-[![GitHub issues](https://img.shields.io/github/issues/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
-[![GitHub forks](https://img.shields.io/github/forks/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
-[![GitHub stars](https://img.shields.io/github/stars/luismayta/slide-git-for-devs.svg)](https://github.com/luismayta/slide-git-for-devs)
+[![Build Status](https://travis-ci.org/luismayta/slide-git4devs.svg)](https://travis-ci.org/luismayta/slide-git4devs)
+[![GitHub issues](https://img.shields.io/github/issues/luismayta/slide-git4devs.svg)](https://github.com/luismayta/slide-git4devs)
+[![GitHub forks](https://img.shields.io/github/forks/luismayta/slide-git4devs.svg)](https://github.com/luismayta/slide-git4devs)
+[![GitHub stars](https://img.shields.io/github/stars/luismayta/slide-git4devs.svg)](https://github.com/luismayta/slide-git4devs)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 </span>
 
-# Git For Developments
+# Git 4 Devs
 
-This is a talk for the [Pymienta 2015](http://pimientadigital.com) conference.
+slide to information of git.
 
 ## Install
 
@@ -48,5 +48,5 @@ http://localhost:5000
 
 <span class="badges">
 [![Linkedin](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://pe.linkedin.com/in/luismayta)
-[![Analytics](https://ga-beacon.appspot.com/UA-65019326-1/slide-git-for-devs/readme)](https://github.com/luismayta/slide-git-for-devs)
+[![Analytics](https://ga-beacon.appspot.com/UA-65019326-1/slide-git4devs/readme)](https://github.com/luismayta/slide-git4devs)
 </span>

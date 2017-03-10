@@ -1,4 +1,4 @@
-# Makefile for slide-git-for-devs.
+# Makefile for slide-git4devs.
 # See INSTALL for details.
 
 # Configuration.
