@@ -59,11 +59,15 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 # Sistema de Control de Version Centralizado
 
+--------------------------------------------------
+
 ![version centralizado](../static/version_centralizado.png)
 
 --------------------------------------------------
 
 # Sistema de Control de Version Distribuido
+
+--------------------------------------------------
 
 ![version distribuido](../static/versiones_distribuidos.png)
 
