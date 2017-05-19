@@ -3,6 +3,7 @@
 
 # Configuration.
 SHELL = /bin/bash
+ROOT_DIR = $(shell pwd)
 SCRIPT_DIR = $(ROOT_DIR)/script
 
 # Bin scripts
