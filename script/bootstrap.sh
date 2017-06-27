@@ -5,9 +5,14 @@ export PROJECT_NAME=slide-git4devs
 
 export PYTHON_VERSION=2.7.9
 export PYENV_NAME="${PROJECT_NAME}"
+
 # Vars Dir
-export ROOT_DIR=""
+export ROOT_DIR
 ROOT_DIR=$(pwd)
 export RESOURCES_DIR="$ROOT_DIR/resources"
-export SOURCE_DIR="$ROOT_DIR"
-export STATIC_DIR="$SOURCE_DIR/static/"
+export RESOURCES_DB_DIR="$RESOURCES_DIR/db"
+export PROVISION_DIR="$ROOT_DIR/provision/ansible"
+export SOURCE_DIR="${ROOT_DIR}/"
+export REQUIREMENTS_DIR="${SOURCE_DIR}/requirements/"
+export FILE_README="${SOURCE_DIR}/README.rst"
+export ETC_DIR="${SOURCE_DIR}/etc"
