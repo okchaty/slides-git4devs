@@ -3,7 +3,7 @@ slide-git4devs
 
 |build_status| |code_climate| |github_tag| |issues_count| |github_issues| |test_coverage| |license|
 
-:Version: 0.0.1
+:Version: 0.0.6
 :Web: https://github.com/luismayta/slide-git4devs
 :Download: http://github.com/luismayta/slide-git4devs
 :Source: http://github.com/luismayta/slide-git4devs
