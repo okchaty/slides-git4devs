@@ -1,10 +1,7 @@
-#Luis Mayta
+## Luis Mayta
 
-- Software Developer
-- Go enthusiast
-- Python enthusiast
-
-## Contactos:
+- **Go enthusiast**
+- **Python enthusiast**
 
 - [@slovacus](https://twitter.com/slovacus)
 - [github.com/luismayta](https://github.com/luismayta)

@@ -1,63 +1,57 @@
-# Makefile for slide-git4devs.
-# See INSTALL for details.
+.PHONY: build deploy lint test functions help
+.DEFAULT_GOAL := help
 
 # Configuration.
 SHELL = /bin/bash
 ROOT_DIR = $(shell pwd)
-BIN_DIR = $(ROOT_DIR)/bin
-DATA_DIR = $(ROOT_DIR)/var
 SCRIPT_DIR = $(ROOT_DIR)/script
-
-WGET = wget
 
 # Bin scripts
 CLEAN = $(shell) $(SCRIPT_DIR)/clean.sh
-SETUP = $(shell) $(SCRIPT_DIR)/setup.sh
-TEST = $(shell) $(SCRIPT_DIR)/test.sh
-RUNSERVER = $(shell) $(SCRIPT_DIR)/runserver.sh
-SYNC = $(shell) $(SCRIPT_DIR)/sync.sh
-WATCH = $(shell) $(SCRIPT_DIR)/watch.sh
+DOCUMENTATION = $(shell) $(SCRIPT_DIR)/documentation.sh
+INSTALL = $(shell) $(SCRIPT_DIR)/install.sh
+PYENV = $(shell) $(SCRIPT_DIR)/pyenv.sh
 GENERATE = $(shell) $(SCRIPT_DIR)/generate.sh
+INSTALL = $(shell) $(SCRIPT_DIR)/install.sh
+WATCH = $(shell) $(SCRIPT_DIR)/watch.sh
+LINT = $(shell) $(SCRIPT_DIR)/lint.sh
+TEST = $(shell) $(SCRIPT_DIR)/test.sh
 
-install:
-	$(SETUP)
 
-
-clean:
+clean: ## clean Files compiled
 	$(CLEAN)
 
 
-clean_migrations: clean
-	$(CLEAN_MIGRATIONS)
+environment: ## Make environment for developer
+	$(PYENV)
 
 
-deploy:
-	$(ANSIBLE_PROVISION)
-	$(ANSIBLE_DEPLOY)
-
-
-distclean: clean
-	rm -rf $(ROOT_DIR)/lib
-	rm -rf $(ROOT_DIR)/*.egg-info
-	rm -rf $(ROOT_DIR)/demo/*.egg-info
-
-
-maintainer-clean: distclean
-	rm -rf $(BIN_DIR)
-	rm -rf $(ROOT_DIR)/lib/
-
-
-runserver:
-	$(RUNSERVER)
-
-
-sync:
-	$(SYNC)
-
-
-watch:
-	$(WATCH)
+documentation: ## Make Documentation
+	make clean
+	$(DOCUMENTATION)
 
 
 generate:
 	$(GENERATE)
+
+
+install: ## Install Dependences
+	$(INSTALL)
+
+
+lint: ## Clean files unnecesary
+	make clean
+	$(LINT)
+
+
+test: ## make test
+	$(TEST)
+
+
+watch: ## Show Live Reload landslide
+	$(WATCH)
+
+
+help: ## Show help text
+	@echo "Commands:"
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "    \033[36m%-20s\033[0m %s\n", $$1, $$2}'

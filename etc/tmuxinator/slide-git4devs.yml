@@ -33,7 +33,6 @@ windows:
       panes:
         - editor:
             - pyenv activate slide-git4devs
-            - <%= ENV["EDITOR"] %>
         - docker:
             - pyenv activate slide-git4devs
   - python:
