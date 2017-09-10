@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 
-export PROJECT_NAME=slide-git4devs
+export PROJECT_NAME=slides-git4devs
 
-export PYTHON_VERSION=2.7.9
+export PYTHON_VERSION=3.6.1
 export PYENV_NAME="${PROJECT_NAME}"
 
 # Vars Dir
