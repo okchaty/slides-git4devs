@@ -1,7 +1,7 @@
 slides-git4devs
 #################
 
-|gitpitch| |build_status| |code_climate| |github_tag| |test_coverage| |license|
+|gitpitch| |wercker| |build_status| |code_climate| |github_tag| |test_coverage| |license|
 
 :Version: 0.0.6
 :Web: https://github.com/luismayta/slides-git4devs
@@ -108,6 +108,10 @@ Made with :heart: :coffee:️and :pizza: by `company`_.
 .. |build_status| image:: https://travis-ci.org/luismayta/slides-git4devs.svg
   :target: https://travis-ci.org/luismayta/slides-git4devs
   :alt: Build Status Tag
+
+.. |wercker| image:: https://app.wercker.com/status/c0c2ac92f9f63cc9b21db828f1c8e695/s/ "wercker status"
+  :target: https://app.wercker.com/project/byKey/c0c2ac92f9f63cc9b21db828f1c8e695
+  :alt: Wercker status
 
 .. |gitpitch| image:: https://gitpitch.com/assets/badge.svg
   :target: https://gitpitch.com/luismayta/slides-git4devs?grs=github&t=white
