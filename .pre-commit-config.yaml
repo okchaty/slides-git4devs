@@ -1,5 +1,5 @@
 -   repo: https://github.com/pre-commit/pre-commit-hooks.git
-    sha: v0.9.1
+    sha: v0.9.3
     hooks:
     -   id: detect-private-key
         files: ^(?!\.?git-crypt)
@@ -68,7 +68,7 @@
         args:
         - --silent-overwrite
 -   repo: https://github.com/detailyang/pre-commit-shell.git
-    sha: 1.0.1
+    sha: 1.0.2
     hooks:
     -   id: shell-lint
         exclude: ^script/wait-for-it.sh$
@@ -88,3 +88,7 @@
     -   id: python-bandit-vulnerability-check
         args: []
         files: .py$
+-   repo: https://github.com/pre-commit/mirrors-csslint
+    sha: v1.0.5
+    hooks:
+    -   id: csslint
