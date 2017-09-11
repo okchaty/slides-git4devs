@@ -65,6 +65,26 @@ Changelog
 
 Please see `changelog`_ for more information what has changed recently.
 
+Semantic Versioning Policy
+--------------------------
+
+slides-git4devs follows `semantic versioning`_ However, due to the nature of
+slides-git4devs as a slides, it's not always clear when a minor or major version
+bump occurs. To help clarify this for everyone we've defined the following semantic versioning policy:
+
+* **Patch release** (intended to not break slides)
+    * A bug fix in a rule that results in slides-git4devs reporting fewer errors.
+    * Improvements to documentation.
+
+* **Minor release** (might break your lint build)
+    * A bug fix in a rule that results in slides-git4devs reporting more errors.
+    * A new slides is created.
+    * An existing slides is deprecated.
+
+* **Major release** (likely to break your slides build)
+    * A change in the documented behaviour of an existing slides results in slides-git4devs.
+    * An existing slides is removed.
+
 Contributing
 ============
 
@@ -110,3 +130,4 @@ Made with :heart: :coffee:️and :pizza: by `company`_.
 .. _`company`: https://github.com/luismayta
 .. _`author`: https://github.com/luismayta
 .. _`python`: https://www.python.org
+..  _`semantic versioning`: http://semver.org
