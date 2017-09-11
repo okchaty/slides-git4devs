@@ -1,5 +1,3 @@
-#HSLIDE
-
 ### Agenda
 
 - Que es Git?
