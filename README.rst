@@ -1,13 +1,14 @@
-slide-git4devs
+slides-git4devs
 #################
 
-|build_status| |code_climate| |github_tag| |issues_count| |github_issues| |test_coverage| |license|
+|gitpitch| |wercker| |build_status| |code_climate| |github_tag| |test_coverage| |license|
 
-:Version: 0.0.6
-:Web: https://github.com/luismayta/slide-git4devs
-:Download: http://github.com/luismayta/slide-git4devs
-:Source: http://github.com/luismayta/slide-git4devs
-:Keywords: slide-git4devs
+:Version: 0.1.0
+:Web: https://github.com/luismayta/slides-git4devs
+:Slide: https://gitpitch.com/luismayta/slides-git4devs
+:Download: http://github.com/luismayta/slides-git4devs
+:Source: http://github.com/luismayta/slides-git4devs
+:Keywords: slides-git4devs
 
 Slides User Story
 
@@ -21,42 +22,68 @@ Requirements
 
 .. code-block:: bash
 
-   $ make install
+   $ make setup
 
 
-Slides
-=======
-
-Execute slides:
+Test
+====
 
 .. code-block:: bash
 
-   $ make generate
+   $ make test
 
-
-Others
-======
+Actions
+=======
 
 Other commands for developing are written in Makefile:
 
 .. code-block:: bash
 
   λ make help
-  Commands:
-    clean                clean Files compiled
-    environment          Make environment for developer
-    documentation        Make Documentation
-    install              Install Dependences
-    lint                 Clean files unnecesary
-    test                 make test
-    watch                Show Live Reload landslide
-    help                 Show help text
+    ༼ つ ◕_◕ ༽つ Commands
+      build                Build docker container by env
+      clean                clean Files compiled
+      environment          Make environment for developer
+      documentation        Make Documentation
+      down                 remove containers docker by env
+      env                  Show envs available
+      install              Install with var env Dependences
+      list                 List of current active services by env
+      lint                 Clean files unnecesary
+      test                 make test
+      up                   Up application by env
+      restart              Reload services
+      ssh                  Connect to container
+      stop                 stop containers docker by env
+      setup                Install dependences initial
+      verify_network       Verify network
+      help                 Show help text
 
 
 Changelog
 =========
 
 Please see `changelog`_ for more information what has changed recently.
+
+Semantic Versioning Policy
+--------------------------
+
+slides-git4devs follows `semantic versioning`_ However, due to the nature of
+slides-git4devs as a slides, it's not always clear when a minor or major version
+bump occurs. To help clarify this for everyone we've defined the following semantic versioning policy:
+
+* **Patch release** (intended to not break slides)
+    * A bug fix in a rule that results in slides-git4devs reporting fewer errors.
+    * Improvements to documentation.
+
+* **Minor release** (might break your lint build)
+    * A bug fix in a rule that results in slides-git4devs reporting more errors.
+    * A new slides is created.
+    * An existing slides is deprecated.
+
+* **Major release** (likely to break your slides build)
+    * A change in the documented behaviour of an existing slides results in slides-git4devs.
+    * An existing slides is removed.
 
 Contributing
 ============
@@ -70,32 +97,32 @@ Made with :heart: :coffee:️and :pizza: by `company`_.
 
 - `All Contributors`_
 
-.. |code_climate| image:: https://codeclimate.com/github/luismayta/slide-git4devs/badges/gpa.svg
-  :target: https://codeclimate.com/github/luismayta/slide-git4devs
+.. |code_climate| image:: https://codeclimate.com/github/luismayta/slides-git4devs/badges/gpa.svg
+  :target: https://codeclimate.com/github/luismayta/slides-git4devs
   :alt: Code Climate
 
-.. |github_tag| image:: https://img.shields.io/github/tag/luismayta/slide-git4devs.svg?maxAge=2592000
-  :target: https://github.com/luismayta/slide-git4devs
+.. |github_tag| image:: https://img.shields.io/github/tag/luismayta/slides-git4devs.svg?maxAge=2592000
+  :target: https://github.com/luismayta/slides-git4devs
   :alt: Github Tag
 
-.. |build_status| image:: https://travis-ci.org/luismayta/slide-git4devs.svg
-  :target: https://travis-ci.org/luismayta/slide-git4devs
+.. |build_status| image:: https://travis-ci.org/luismayta/slides-git4devs.svg
+  :target: https://travis-ci.org/luismayta/slides-git4devs
   :alt: Build Status Tag
 
-.. |github_issues| image:: https://img.shields.io/github/issues/luismayta/slide-git4devs.svg
-  :target: https://github.com/luismayta/slide-git4devshadenlabs/cookiecutter-python-project/issues
-  :alt: Github Issues
+.. |wercker| image:: https://app.wercker.com/status/c0c2ac92f9f63cc9b21db828f1c8e695/s/ "wercker status"
+  :target: https://app.wercker.com/project/byKey/c0c2ac92f9f63cc9b21db828f1c8e695
+  :alt: Wercker status
 
-.. |issues_count| image:: https://codeclimate.com/github/luismayta/slide-git4devs/badges/issue_count.svg
-  :target: https://codeclimate.com/github/luismayta/slide-git4devs
-  :alt: Issue Count
+.. |gitpitch| image:: https://gitpitch.com/assets/badge.svg
+  :target: https://gitpitch.com/luismayta/slides-git4devs?grs=github&t=white
+  :alt: GitPitch
 
 .. |license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
   :target: LICENSE
   :alt: License
 
-.. |test_coverage| image:: https://codeclimate.com/github/luismayta/slide-git4devs/badges/coverage.svg
-  :target: https://codeclimate.com/github/luismayta/slide-git4devs/coverage
+.. |test_coverage| image:: https://codeclimate.com/github/luismayta/slides-git4devs/badges/coverage.svg
+  :target: https://codeclimate.com/github/luismayta/slides-git4devs/coverage
   :alt: Test Coverage
 
 ..
@@ -107,3 +134,4 @@ Made with :heart: :coffee:️and :pizza: by `company`_.
 .. _`company`: https://github.com/luismayta
 .. _`author`: https://github.com/luismayta
 .. _`python`: https://www.python.org
+..  _`semantic versioning`: http://semver.org

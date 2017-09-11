@@ -1,186 +1,195 @@
-# No tenemos Tiempo
+### No tenemos Tiempo
 
-![mejorar](../static/mejorar.jpg)
+![mejorar](assets/images/mejorar.jpg)
 
---------------------------------------------------
 
-# Git
+#VSLIDE
 
-![logo git](../static/logo-git.png)
+### Git
 
---------------------------------------------------
+![logo git](assets/images/logo-git.png)
 
-# Que es Git?
+
+#VSLIDE
+
+
+### Que es Git?
 
 - Sistema de Control de Versiones Open Source
 - Multiplataforma
 - Distribuido
 - Creado Por Linus Torvals.
 
---------------------------------------------------
 
-# Linus Torvalds
-
-![linus torvalds](../static/torvaldsnvidia.jpg)
-
---------------------------------------------------
+#VSLIDE
 
 
-# Ventajas de Git
+### Linus Torvalds
+
+
+![linus torvalds](assets/images/torvaldsnvidia.jpg)
+
+#VSLIDE
+
+
+### Ventajas de Git
 
 - Velocidad
 - Completamente Distribuido
 - Capaz de Manejar Grandes Proyectos (Kernel de Linux)
 - Fuerte apoyo al desarrollo no lineal
 
---------------------------------------------------
+#VSLIDE
 
-# Sistema de Control de Versiones
+### Sistema de Control de Versiones
 
 Es un sistema que registra los cambios realizados sobre
 un archivo o conjunto de archivos a lo largo del tiempo.
 
---------------------------------------------------
+#VSLIDE
 
-# Tipos de Sistemas de Control de Versiones
-
+### Tipos de Sistemas de Control de Versiones
 
 - Sistema de Control de Versiones Locales.
 - Sistema de Control de Versiones Centralizados.
 - Sistema de Control de Versiones Distribuidos.
 
---------------------------------------------------
+#VSLIDE
 
-# Sistema de Control de Version Local
+### Sistema de Control de Version Local
 
-![version local](../static/version_local.png)
+![version local](assets/images/version_local.png)
 
---------------------------------------------------
+#VSLIDE
 
-# Sistema de Control de Version Centralizado
+### Sistema de Control de Version Centralizado
 
---------------------------------------------------
+#VSLIDE
 
-![version centralizado](../static/version_centralizado.png)
+![version centralizado](assets/images/version_centralizado.png)
 
---------------------------------------------------
+#VSLIDE
 
-# Sistema de Control de Version Distribuido
+### Sistema de Control de Version Distribuido
 
---------------------------------------------------
+#VSLIDE
 
-![version distribuido](../static/versiones_distribuidos.png)
+![version distribuido](assets/images/versiones_distribuidos.png)
 
---------------------------------------------------
+#VSLIDE
 
-# Install
+### Install
 
 ## windows
 
-    !python
-
-    download http://git-scm.com/ next next
+```bash
+download http://git-scm.com/ next next
+```
 
 ## linux
 
-    !python
-
-    Debian: sudo apt-get install git-all
-    Red Hat: sudo Yum install git-all
+```bash
+Debian: sudo apt-get install git-all
+Red Hat: sudo Yum install git-all
+```
 
 ## OS X
 
-    !python
+```bash
+brew update
+brew install git
+```
 
-    brew update
-    brew install git
 
---------------------------------------------------
+#VSLIDE
 
-# Comandos Git
+### Comandos Git
 
 ## Link
 
-    !python
+```bash
+https://gist.github.com/luismayta/4047768
+```
 
-    https://gist.github.com/luismayta/4047768
 
---------------------------------------------------
+#VSLIDE
 
-# Estados de Git:
+### Estados de Git:
 
-![lifecycle.png](../static/lifecyclefile.png)
+![lifecycle.png](assets/images/lifecyclefile.png)
 
---------------------------------------------------
 
-# Personalizando Git
+#VSLIDE
+
+### Personalizando Git
 
 - Git Config
 - Git Ignore
 
---------------------------------------------------
+#VSLIDE
 
-# Git Config
+### Git Config
 
-## Link
+#### Link
 
-    !python
+```bash
+https://github.com/PimientaDigital/gitconfig
+```
 
-    https://github.com/PimientaDigital/gitconfig
+#### config
 
-## config
+```bash
+git config -e
+git config --global -e
+```
 
-    !python
 
-    git config -e
-    git config --global -e
+#VSLIDE
 
---------------------------------------------------
+### Git Ignore
 
-# Git Ignore
+#### Link
 
-## Link
+```bash
+https://github.com/PimientaDigital/gitignore
+```
 
-    !python
+#### Ignore File
 
-    https://github.com/PimientaDigital/gitignore
+```bash
+echo "file.py"  >> .gitignore
+```
 
-## Ignore File
+#VSLIDE
 
-    !python
-
-    echo "file.py"  >> .gitignore
-
---------------------------------------------------
-
-# Tipos de Repositorios
+### Tipos de Repositorios
 
 - Repositorio Local
 - Repositorio Bare
 
---------------------------------------------------
+#VSLIDE
 
-# Repositorio local
+### Repositorio local
 
-## Create Repo
+#### Create Repo
 
-    !python
+```bash
+git init <<path>>
+```
 
-    git init <<path>>
+#VSLIDE
 
---------------------------------------------------
+### Repositorio Bare
 
-# Repositorio Bare
+#### Create Repo
 
-## Create Repo
+```bash
+git init --bare <<path.git>>
+```
 
-    !python
+#HSLIDE
 
-    git init --bare <<path.git>>
-
---------------------------------------------------
-
-# Hooks de Git
+### Hooks de Git
 
 - pre-commit
 - post-commit
@@ -188,31 +197,29 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 - post-receive
 - ...
 
---------------------------------------------------
+#VSLIDE
 
-# Tools
+### Tools
 
---------------------------------------------------
+#VSLIDE
 
-# Meld
+### Meld
 
-## Install
+#### Install
 
-    !python
+```bash
+sudo apt-get install meld
+```
 
-    sudo apt-get install meld
+#### Config
 
-## Config
+```bash
+git config --global merge.tool meld
+git config --global diff.tool meld
+```
 
-    !python
+#VSLIDE
 
-    git config --global merge.tool meld
-    git config --global diff.tool meld
+### Preguntas
 
---------------------------------------------------
-
-# Preguntas
-
-![mejorar](../static/mejorar.jpg)
-
---------------------------------------------------
+![mejorar](assets/images/mejorar.jpg)
