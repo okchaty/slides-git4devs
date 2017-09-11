@@ -8,6 +8,8 @@ python:
   - "2.7"
   - "3.3"
   - "3.4"
+  - "3.5"
+  - "3.6"
   - "nightly"
 
 sudo: true
@@ -23,9 +25,10 @@ before_install:
     fi
 
 install:
-  make install
+  make install env=test
 
 script:
+  make lint
   make test
 
 notifications:
