@@ -34,7 +34,6 @@
 
 ### Ventajas de Git
 
-
 - Velocidad
 - Completamente Distribuido
 - Capaz de Manejar Grandes Proyectos (Kernel de Linux)
@@ -50,7 +49,6 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 #VSLIDE
 
 ### Tipos de Sistemas de Control de Versiones
-
 
 - Sistema de Control de Versiones Locales.
 - Sistema de Control de Versiones Centralizados.
@@ -84,23 +82,23 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 ## windows
 
-    !python
-
-    download http://git-scm.com/ next next
+```bash
+download http://git-scm.com/ next next
+```
 
 ## linux
 
-    !python
-
-    Debian: sudo apt-get install git-all
-    Red Hat: sudo Yum install git-all
+```bash
+Debian: sudo apt-get install git-all
+Red Hat: sudo Yum install git-all
+```
 
 ## OS X
 
-    !python
-
-    brew update
-    brew install git
+```bash
+brew update
+brew install git
+```
 
 
 #VSLIDE
@@ -109,9 +107,9 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 ## Link
 
-    !python
-
-    https://gist.github.com/luismayta/4047768
+```bash
+https://gist.github.com/luismayta/4047768
+```
 
 
 #VSLIDE
@@ -134,16 +132,16 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 #### Link
 
-    !python
-
-    https://github.com/PimientaDigital/gitconfig
+```bash
+https://github.com/PimientaDigital/gitconfig
+```
 
 #### config
 
-    !python
-
-    git config -e
-    git config --global -e
+```bash
+git config -e
+git config --global -e
+```
 
 
 #VSLIDE
@@ -152,15 +150,15 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 #### Link
 
-    !python
-
-    https://github.com/PimientaDigital/gitignore
+```bash
+https://github.com/PimientaDigital/gitignore
+```
 
 #### Ignore File
 
-    !python
-
-    echo "file.py"  >> .gitignore
+```bash
+echo "file.py"  >> .gitignore
+```
 
 #VSLIDE
 
@@ -175,9 +173,9 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 #### Create Repo
 
-    !python
-
-    git init <<path>>
+```bash
+git init <<path>>
+```
 
 #VSLIDE
 
@@ -185,9 +183,9 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 #### Create Repo
 
-    !python
-
-    git init --bare <<path.git>>
+```bash
+git init --bare <<path.git>>
+```
 
 #HSLIDE
 
@@ -209,16 +207,16 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 #### Install
 
-    !python
-
-    sudo apt-get install meld
+```bash
+sudo apt-get install meld
+```
 
 #### Config
 
-    !python
-
-    git config --global merge.tool meld
-    git config --global diff.tool meld
+```bash
+git config --global merge.tool meld
+git config --global diff.tool meld
+```
 
 #VSLIDE
 
