@@ -1,4 +1,6 @@
-# Agenda
+#HSLIDE
+
+### Agenda
 
 - Que es Git?
 - Ventajas de Git.
@@ -7,9 +9,11 @@
 - Instalacion
 - Comandos de Git.
 
---------------------------------------------------------------------------------
 
-# Agenda
+#VSLIDE
+
+
+### Agenda
 
 - Comandos de Git.
 - Estados de Git.

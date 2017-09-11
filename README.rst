@@ -1,10 +1,11 @@
 slides-git4devs
 #################
 
-|build_status| |code_climate| |github_tag| |issues_count| |github_issues| |test_coverage| |license|
+|gitpitch| |build_status| |code_climate| |github_tag| |test_coverage| |license|
 
 :Version: 0.0.6
 :Web: https://github.com/luismayta/slides-git4devs
+:Slide: https://gitpitch.com/luismayta/slides-git4devs
 :Download: http://github.com/luismayta/slides-git4devs
 :Source: http://github.com/luismayta/slides-git4devs
 :Keywords: slides-git4devs
@@ -21,21 +22,18 @@ Requirements
 
 .. code-block:: bash
 
-   $ make install
+   $ make setup
 
 
-Slides
-=======
-
-Execute slides:
+Test
+====
 
 .. code-block:: bash
 
-   $ make generate
+   $ make test
 
-
-Others
-======
+Actions
+=======
 
 Other commands for developing are written in Makefile:
 
@@ -91,13 +89,9 @@ Made with :heart: :coffee:️and :pizza: by `company`_.
   :target: https://travis-ci.org/luismayta/slides-git4devs
   :alt: Build Status Tag
 
-.. |github_issues| image:: https://img.shields.io/github/issues/luismayta/slides-git4devs.svg
-  :target: https://github.com/luismayta/slides-git4devshadenlabs/cookiecutter-python-project/issues
-  :alt: Github Issues
-
-.. |issues_count| image:: https://codeclimate.com/github/luismayta/slides-git4devs/badges/issue_count.svg
-  :target: https://codeclimate.com/github/luismayta/slides-git4devs
-  :alt: Issue Count
+.. |gitpitch| image:: https://gitpitch.com/assets/badge.svg
+  :target: https://gitpitch.com/luismayta/slides-git4devs?grs=github&t=white
+  :alt: GitPitch
 
 .. |license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
   :target: LICENSE
