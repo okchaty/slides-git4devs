@@ -1,5 +1,3 @@
-#VSLIDE
-
 ### Luis Mayta
 
 - **Go enthusiast**

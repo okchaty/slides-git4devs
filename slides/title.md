@@ -1,5 +1,3 @@
-#HSLIDE
+### Git For Developer
 
-# Git For Developer
-
-![logo git](../assets/images/logo-git.png)
+![logo git](assets/images/logo-git.png)

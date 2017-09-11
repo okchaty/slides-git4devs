@@ -1,15 +1,13 @@
-#HSLIDE
-
 ### No tenemos Tiempo
 
-![mejorar](../assets/images/mejorar.jpg)
+![mejorar](assets/images/mejorar.jpg)
 
 
 #VSLIDE
 
 ### Git
 
-![logo git](../assets/images/logo-git.png)
+![logo git](assets/images/logo-git.png)
 
 
 #VSLIDE
@@ -29,7 +27,7 @@
 ### Linus Torvalds
 
 
-![linus torvalds](../assets/images/torvaldsnvidia.jpg)
+![linus torvalds](assets/images/torvaldsnvidia.jpg)
 
 #VSLIDE
 
@@ -62,7 +60,7 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 ### Sistema de Control de Version Local
 
-![version local](../assets/images/version_local.png)
+![version local](assets/images/version_local.png)
 
 #VSLIDE
 
@@ -70,7 +68,7 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 #VSLIDE
 
-![version centralizado](../assets/images/version_centralizado.png)
+![version centralizado](assets/images/version_centralizado.png)
 
 #VSLIDE
 
@@ -78,7 +76,7 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 #VSLIDE
 
-![version distribuido](../assets/images/versiones_distribuidos.png)
+![version distribuido](assets/images/versiones_distribuidos.png)
 
 #VSLIDE
 
@@ -120,7 +118,7 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 ### Estados de Git:
 
-![lifecycle.png](../assets/images/lifecyclefile.png)
+![lifecycle.png](assets/images/lifecyclefile.png)
 
 
 #VSLIDE
@@ -226,4 +224,4 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 
 ### Preguntas
 
-![mejorar](../assets/images/mejorar.jpg)
+![mejorar](assets/images/mejorar.jpg)
