@@ -1,6 +1,3 @@
-slides-git4devs
-###############
-
 |gitpitch| |wercker| |build_status| |code_climate| |github_tag| |test_coverage| |license|
 
 :Version: 0.1.0
@@ -10,30 +7,33 @@ slides-git4devs
 :Source: http://github.com/luismayta/slides-git4devs
 :Keywords: slides-git4devs
 
-Slides User Story
-
 .. contents:: Table of Contents:
     :local:
 
+slides-git4devs
+###############
+
+Slides git for devs
+
+Usage
+=====
+
 Requirements
-============
+------------
 
-- `python`_
-
-.. code-block:: bash
-
-   $ make setup
-
-
-Test
-====
+* `python`_
+* `docker`_
+* `docker compose`_
 
 .. code-block:: bash
 
-   $ make test
+  λ make setup
+  λ make docker.build
+  λ make docker.run service=app
+
 
 Actions
-=======
+-------
 
 Other commands for developing are written in Makefile:
 
@@ -75,32 +75,18 @@ Other commands for developing are written in Makefile:
 Changelog
 =========
 
+* This project adheres to `Semantic Versioning <http://semver.org/spec/v2.0.0.html>`_
+* and `human-readable changelog <http://keepachangelog.com/en/0.3.0>`_.
+
+
 Please see `changelog`_ for more information what has changed recently.
 
-Semantic Versioning Policy
---------------------------
-
-slides-git4devs follows `semantic versioning`_ However, due to the nature of
-slides-git4devs as a slides, it's not always clear when a minor or major version
-bump occurs. To help clarify this for everyone we've defined the following semantic versioning policy:
-
-* **Patch release** (intended to not break slides)
-    * A bug fix in a rule that results in slides-git4devs reporting fewer errors.
-    * Improvements to documentation.
-
-* **Minor release** (might break your lint build)
-    * A bug fix in a rule that results in slides-git4devs reporting more errors.
-    * A new slides is created.
-    * An existing slides is deprecated.
-
-* **Major release** (likely to break your slides build)
-    * A change in the documented behaviour of an existing slides results in slides-git4devs.
-    * An existing slides is removed.
 
 Contributing
 ============
 
 Please see `contributing`_ for details.
+
 
 Credits
 =======
@@ -137,14 +123,14 @@ Made with :heart: :coffee:️and :pizza: by `company`_.
   :target: https://codeclimate.com/github/luismayta/slides-git4devs/coverage
   :alt: Test Coverage
 
-..
-   Links
+.. Links
 
 .. _`all contributors`: AUTHORS.rst
 .. _`changelog`: CHANGELOG.rst
 .. _`contributors`: AUTHORS
 .. _`contributing`: CONTRIBUTING.rst
-.. _`company`: https://github.com/luismayta
+.. _`company`: https://github.com/hadenlabs
 .. _`author`: https://github.com/luismayta
 .. _`python`: https://www.python.org
-..  _`semantic versioning`: http://semver.org
+.. _`docker`: https://www.docker.io
+.. _`docker compose`: https://docs.docker.com/compose
