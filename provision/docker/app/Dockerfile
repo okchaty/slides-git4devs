@@ -2,6 +2,9 @@ FROM python:3.6.1
 
 MAINTAINER Luis Mayta <@slovacus>
 
+LABEL NAME slides-git4devs
+LABEL VERSION 0.1.0
+
 COPY ./requirements/ /app/requirements/
 COPY ./requirements.txt /app/requirements.txt
 
