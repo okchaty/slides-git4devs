@@ -51,7 +51,6 @@ help:
 	@echo ''
 	@echo '        docs.show                  Show restview README'
 	@echo '        docs.make.html             Make documentation html'
-	@echo '        docs.make.pdf              Make documentation pdf'
 	@echo ''
 	@echo '    Tests:'
 	@echo ''
