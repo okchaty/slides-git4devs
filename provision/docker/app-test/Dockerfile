@@ -9,7 +9,7 @@ COPY ./requirements/ /usr/src/requirements/
 COPY ./requirements.txt /usr/src/requirements.txt
 
 # set working directory to /app/
-WORKDIR /app/
+WORKDIR /usr/src/
 
 # install python dependencies
 RUN pip install -r /usr/src/requirements.txt
