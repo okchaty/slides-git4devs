@@ -63,7 +63,6 @@ Other commands for developing are written in Makefile:
 
           docs.show                  Show restview README
           docs.make.html             Make documentation html
-          docs.make.pdf              Make documentation pdf
 
       Tests:
 
@@ -80,7 +79,6 @@ Changelog
 
 
 Please see `changelog`_ for more information what has changed recently.
-
 
 Contributing
 ============
