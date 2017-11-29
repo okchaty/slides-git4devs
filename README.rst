@@ -40,24 +40,36 @@ Other commands for developing are written in Makefile:
 .. code-block:: bash
 
   λ make help
-    ༼ つ ◕_◕ ༽つ Commands
-      build                Build docker container by env
-      clean                clean Files compiled
-      environment          Make environment for developer
-      documentation        Make Documentation
-      down                 remove containers docker by env
-      env                  Show envs available
-      install              Install with var env Dependences
-      list                 List of current active services by env
-      lint                 Clean files unnecesary
-      test                 make test
-      up                   Up application by env
-      restart              Reload services
-      ssh                  Connect to container
-      stop                 stop containers docker by env
-      setup                Install dependences initial
-      verify_network       Verify network
-      help                 Show help text
+  ༼ つ ◕_◕ ༽つ Makefile for slides-git4devs
+
+  Usage:
+      environment               create environment with pyenv
+      install                   install dependences python by env
+      clean                     remove files of build
+      setup                     install requirements
+
+      Docker:
+
+          docker.build         build all services with docker-compose
+          docker.down          down services docker-compose
+          docker.ssh           connect by ssh to container
+          docker.stop          stop services by env
+          docker.verify_network           verify network
+          docker.up             up services of docker-compose
+          docker.run            run {service} {env}
+          docker.list           list services of docker
+
+      Docs:
+
+          docs.show                  Show restview README
+          docs.make.html             Make documentation html
+          docs.make.pdf              Make documentation pdf
+
+      Tests:
+
+          test                       Run all test
+          test.lint                  Run all pre-commit
+          test.syntax                Run all syntax in code
 
 
 Changelog
@@ -95,7 +107,7 @@ Credits
 
 Made with :heart: :coffee:️and :pizza: by `company`_.
 
-- `All Contributors`_
+* `All Contributors`_
 
 .. |code_climate| image:: https://codeclimate.com/github/luismayta/slides-git4devs/badges/gpa.svg
   :target: https://codeclimate.com/github/luismayta/slides-git4devs
@@ -128,6 +140,7 @@ Made with :heart: :coffee:️and :pizza: by `company`_.
 ..
    Links
 
+.. _`all contributors`: AUTHORS.rst
 .. _`changelog`: CHANGELOG.rst
 .. _`contributors`: AUTHORS
 .. _`contributing`: CONTRIBUTING.rst
