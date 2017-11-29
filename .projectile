@@ -7,4 +7,8 @@
 -*.cache
 -*.pyc
 -.wercker/*
+-/docs/build
+-GPATH
+-GRTAGS
+-GTAGS
 -projectile-bookmarks.eld
