@@ -14,3 +14,14 @@ services:
       - .:/usr/src/
     env_file:
       - .env
+
+  docs:
+    restart: always
+    image: labpositiva/latex:3.6.1
+    build:
+      context: .
+      dockerfile: provision/docker/docs/Dockerfile
+    volumes:
+      - .:/usr/src
+    env_file:
+      - .env
