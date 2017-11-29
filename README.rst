@@ -1,5 +1,5 @@
 slides-git4devs
-#################
+###############
 
 |gitpitch| |wercker| |build_status| |code_climate| |github_tag| |test_coverage| |license|
 
