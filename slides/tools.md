@@ -3,6 +3,7 @@
 #### Install
 
 - https://github.com/scmbreeze/scm_breeze
+- http://pre-commit.com/
 
 #### load ZSH
 
@@ -12,5 +13,3 @@
 - antibody bundle luismayta/zsh-git-aliases
 - antibody bundle mollifier/cd-gitroot
 - antibody bundle unixorn/git-extra-commands
-
-
