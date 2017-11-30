@@ -6,6 +6,8 @@
 
 ---?include=slides/home.md
 
+---?include=slides/terminology.md
+
 ---?include=slides/sources.md
 
 ---?include=slides/thanks.md
