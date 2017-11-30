@@ -6,3 +6,4 @@
 - only merge with master one release/hotfix
 - the branch master it is not to develop
 - use hooks for validate changes
+- use tags (changelog)
