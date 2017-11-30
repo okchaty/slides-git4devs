@@ -16,6 +16,8 @@
 
 ---?include=slides/merging.md
 
+---?include=slides/repository.md
+
 ---?include=slides/sources.md
 
 ---?include=slides/questions.md

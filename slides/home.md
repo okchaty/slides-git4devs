@@ -1,5 +1,3 @@
-#VSLIDE
-
 ### Git
 
 ![logo git](assets/images/logo-git.png)
@@ -130,32 +128,7 @@ https://github.com/PimientaDigital/gitignore
 echo "file.py"  >> .gitignore
 ```
 
-#VSLIDE
 
-### Tipos de Repositorios
-
-- Repositorio Local
-- Repositorio Bare
-
-#VSLIDE
-
-### Repositorio local
-
-#### Create Repo
-
-```bash
-git init <<path>>
-```
-
-#VSLIDE
-
-### Repositorio Bare
-
-#### Create Repo
-
-```bash
-git init --bare <<path.git>>
-```
 
 #HSLIDE
 
