@@ -1,8 +1,3 @@
-### No tenemos Tiempo
-
-![mejorar](assets/images/mejorar.jpg)
-
-
 #VSLIDE
 
 ### Git
@@ -75,31 +70,6 @@ un archivo o conjunto de archivos a lo largo del tiempo.
 #VSLIDE
 
 ![version distribuido](assets/images/versiones_distribuidos.png)
-
-#VSLIDE
-
-### Install
-
-## windows
-
-```bash
-download http://git-scm.com/ next next
-```
-
-## linux
-
-```bash
-Debian: sudo apt-get install git-all
-Red Hat: sudo Yum install git-all
-```
-
-## OS X
-
-```bash
-brew update
-brew install git
-```
-
 
 #VSLIDE
 
@@ -217,9 +187,3 @@ sudo apt-get install meld
 git config --global merge.tool meld
 git config --global diff.tool meld
 ```
-
-#VSLIDE
-
-### Preguntas
-
-![mejorar](assets/images/mejorar.jpg)
