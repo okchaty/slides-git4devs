@@ -1,5 +1,3 @@
-#VSLIDE
-
 ### Git
 
 ![logo git](assets/images/logo-git.png)
