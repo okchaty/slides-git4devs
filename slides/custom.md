@@ -7,7 +7,7 @@
 
 ### Git Config
 
-* [Example](https://github.com/luismayta/dotfiles/blob/develop/conf/app/gitconfig)
+- [Example](https://github.com/luismayta/dotfiles/blob/develop/conf/app/gitconfig)
 
 #### config
 
@@ -20,7 +20,7 @@ git config --global -e
 
 ### Git Ignore
 
-* [Example](https://github.com/luismayta/dotfiles/blob/develop/conf/app/gitignore)
+- [Example](https://github.com/luismayta/dotfiles/blob/develop/conf/app/gitignore)
 
 #### Ignore File
 
