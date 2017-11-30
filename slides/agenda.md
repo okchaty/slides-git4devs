@@ -13,7 +13,6 @@
 
 ### Agenda
 
-- Comandos de Git.
 - Estados de Git.
 - Personalizando.
 - Tipos de Repositorios.
