@@ -24,6 +24,8 @@
 
 ---?include=slides/hooks.md
 
+---?include=slides/best-practices.md
+
 ---?include=slides/sources.md
 
 ---?include=slides/questions.md
