@@ -14,6 +14,8 @@
 
 ---?include=slides/branching.md
 
+---?include=slides/merging.md
+
 ---?include=slides/sources.md
 
 ---?include=slides/questions.md
