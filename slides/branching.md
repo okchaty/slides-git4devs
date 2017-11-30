@@ -20,6 +20,11 @@ Un branch es una simple referencia a un commit
   git branch -m <old-name> <new-branch>
 ```
 
+
+#VSLIDE
+
+### Branches
+
 #### List branches:
 
 ```bash

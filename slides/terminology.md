@@ -8,6 +8,10 @@
 
 - La version que tienes clonada de origin.
 
+#VSLIDE
+
+### Terminology
+
 #### master
 
 - Nombre por defecto del branch principal.
