@@ -1,6 +1,6 @@
 |gitpitch| |wercker| |build_status| |code_climate| |github_tag| |test_coverage| |license|
 
-:Version: 0.1.0
+:Version: 1.0.0
 :Web: https://github.com/luismayta/slides-git4devs
 :Slide: https://gitpitch.com/luismayta/slides-git4devs
 :Download: http://github.com/luismayta/slides-git4devs
