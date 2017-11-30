@@ -8,6 +8,8 @@
 
 ---?include=slides/terminology.md
 
+---?include=slides/branching.md
+
 ---?include=slides/sources.md
 
 ---?include=slides/thanks.md
