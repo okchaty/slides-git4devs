@@ -10,6 +10,8 @@
 
 ---?include=slides/install.md
 
+---?include=slides/custom.md
+
 ---?include=slides/terminology.md
 
 ---?include=slides/branching.md
