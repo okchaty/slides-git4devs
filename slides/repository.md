@@ -33,6 +33,14 @@ git init --bare <<path.git>>
 
 #### Add repository remote:
 
+##### create key ssh
+
+```bash
+  ssh-keygen -t rsa -C "your_email@youremail.com"
+```
+
+##### Add repository
+
 ```bash
   git remote add origin <<ssh remote/https>>
 ```
