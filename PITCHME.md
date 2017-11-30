@@ -26,6 +26,8 @@
 
 ---?include=slides/best-practices.md
 
+---?include=slides/tools.md
+
 ---?include=slides/sources.md
 
 ---?include=slides/questions.md
