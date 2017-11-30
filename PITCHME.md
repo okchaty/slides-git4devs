@@ -22,6 +22,8 @@
 
 ---?include=slides/commands.md
 
+---?include=slides/hooks.md
+
 ---?include=slides/sources.md
 
 ---?include=slides/questions.md
