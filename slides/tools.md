@@ -5,7 +5,9 @@
 - https://github.com/scmbreeze/scm_breeze
 - http://pre-commit.com/
 
-#### load ZSH
+#VSLIDE
+
+### ZSH
 
 #### use load packages
 
