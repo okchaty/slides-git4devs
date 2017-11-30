@@ -8,6 +8,9 @@ This file uses change log convention from `keep a CHANGELOG`_.
 `Unreleased`_
 *************
 
+`1.0.0`_ - 2017-11-30
+**********************
+
 0.1.0 - 2017-09-11
 ******************
 
@@ -17,7 +20,9 @@ This file uses change log convention from `keep a CHANGELOG`_.
 0.0.5 - 2017-06-27
 ******************
 
-.. _`Unreleased`: https://github.com/luismayta/slides-git4devs/compare/0.0.6...HEAD
+.. _`Unreleased`: https://github.com/luismayta/slides-git4devs/compare/1.0.0...HEAD
+.. _1.0.0: https://github.com/luismayta/slides-git4devs/compare/0.1.0...1.0.0
+.. _0.1.0: https://github.com/luismayta/slides-git4devs/compare/0.0.6...0.1.0
 .. _0.0.6: https://github.com/luismayta/slides-git4devs/compare/0.0.5...0.0.6
 .. _0.0.5: https://github.com/luismayta/slides-git4devs/compare/0.0.4...0.0.5
 .. _0.0.4: https://github.com/luismayta/slides-git4devs/compare/0.0.3...0.0.4
